@@ -1,0 +1,16 @@
+name: Auto Assign Buluma Issues/PRs
+description: Automatically add reviewers/assignees to issues/PRs when issues/PRs are opened.
+author: buluma <bulumaknight@gmail.com>
+inputs:
+  GITHUB_TOKEN:
+    description: Your GitHub token for authentication
+    required: true
+  CONFIG_FILE:
+    description: Config file path relative to your repo's root.
+    required: false
+runs:
+  using: node12
+  main: dist/index.js
+branding:
+  icon: flag
+  color: black # gray-dark purple red orange green blue yellow black white
