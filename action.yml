@@ -1,4 +1,4 @@
-name: Auto Assign Buluma Issues/PRs
+name: ShadowNet - Auto Assign Buluma Issues/PRs
 description: Automatically add reviewers/assignees to issues/PRs when issues/PRs are opened.
 author: buluma <bulumaknight@gmail.com>
 inputs:
